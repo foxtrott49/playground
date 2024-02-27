@@ -1,0 +1,20 @@
+CRITICAL - 2024-02-25 21:56:35 --> Invalid file: table.php
+#0 D:\DILLON RPL XIIC\playground\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table.php')
+#1 D:\DILLON RPL XIIC\playground\system\Common.php(1089): CodeIgniter\View\View->render('table', Array, true)
+#2 D:\DILLON RPL XIIC\playground\app\Controllers\Home.php(22): view('table')
+#3 D:\DILLON RPL XIIC\playground\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#4 D:\DILLON RPL XIIC\playground\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\DILLON RPL XIIC\playground\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\DILLON RPL XIIC\playground\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\DILLON RPL XIIC\playground\system\Commands\Server\rewrite.php(43): require_once('D:\\DILLON RPL X...')
+#8 {main}
+CRITICAL - 2024-02-25 21:57:08 --> Invalid file: table.php
+#0 D:\DILLON RPL XIIC\playground\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table.php')
+#1 D:\DILLON RPL XIIC\playground\system\Common.php(1089): CodeIgniter\View\View->render('table', Array, true)
+#2 D:\DILLON RPL XIIC\playground\app\Controllers\Home.php(22): view('table')
+#3 D:\DILLON RPL XIIC\playground\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#4 D:\DILLON RPL XIIC\playground\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\DILLON RPL XIIC\playground\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\DILLON RPL XIIC\playground\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\DILLON RPL XIIC\playground\system\Commands\Server\rewrite.php(43): require_once('D:\\DILLON RPL X...')
+#8 {main}
